@@ -184,7 +184,7 @@ onLoad(() => {
 onShareAppMessage(() => {
   return {
     title: '高清电子文档一键转换',
-    imageUrl: 'https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool/static/share-img.jpg',
+    imageUrl: 'https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool2/share-img.png',
     path: '/pages/index/index',
   }
 })
@@ -208,8 +208,8 @@ const price = computed(() => {
 
 const getProductList = async () => {
   $http.get('api/global/product/get').then(res => {
-    // 扫妙日会员暂时不做显示
-    let index = res.data.findIndex(item => item.product_name === '扫妙日会员')
+    // 千变扫描日会员暂时不做显示
+    let index = res.data.findIndex(item => item.product_name === '千变扫描日会员')
 
     res.data.forEach(item => {
       item.recommend = false
@@ -221,7 +221,7 @@ const getProductList = async () => {
 
     res.data.push({
       price: 1990,
-      product_name: '扫妙连续包月',
+      product_name: '千变扫描连续包月',
       id: 10003,
       recommend: true
     })

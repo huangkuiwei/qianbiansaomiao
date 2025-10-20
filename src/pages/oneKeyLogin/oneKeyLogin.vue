@@ -5,8 +5,8 @@
 
       <wd-img
           width="310rpx"
-          height="117rpx"
-          src="https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool/static/assets/home/new/login-logo.png"
+          mode="widthFix"
+          src="https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool2/login/login-logo.png"
       ></wd-img>
     </view>
 
@@ -53,7 +53,7 @@ export default {
   onShareAppMessage() {
     return {
       title: '高清电子文档一键转换',
-      imageUrl: 'https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool/static/share-img.jpg',
+      imageUrl: 'https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool2/share-img.png',
       path: '/pages/index/index',
     };
   },

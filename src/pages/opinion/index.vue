@@ -46,7 +46,7 @@ const token = ref(uni.getStorageSync('toolsToken'))
 onShareAppMessage(() => {
   return {
     title: '高清电子文档一键转换',
-    imageUrl: 'https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool/static/share-img.jpg',
+    imageUrl: 'https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool2/share-img.png',
     path: '/pages/index/index',
   }
 })
