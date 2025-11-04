@@ -23,7 +23,7 @@ export default {
     //     }
     //
     //     // let username = uni.getStorageSync('username')
-    //     // if(!username && !args.url.includes('https://smapi.wiiken.cn')){
+    //     // if(!username && !args.url.includes('https://sm.ardila.cn')){
     //     //   if( args.url.indexOf('api/login') >= 0 || args.url.indexOf('api/sms') >= 0 ){
     //     //
     //     //   } else {
