@@ -6,8 +6,8 @@ export default {
     console.log('App Launch')
     let isModalShowing = false;
     uni.setStorageSync('$ossUrl', 'https://yonganpicture.oss-cn-shenzhen.aliyuncs.com/')
-    uni.setStorageSync('$viewUrl', 'https://file.wiiken.cn/onlinePreview?url=')
-    uni.setStorageSync('$picsUrl', 'https://file.wiiken.cn/picturesPreview?urls=')
+    uni.setStorageSync('$viewUrl', 'https://file.ardila.cn/onlinePreview?url=')
+    uni.setStorageSync('$picsUrl', 'https://file.ardila.cn/picturesPreview?urls=')
     // uni.addInterceptor('request', {
     //   invoke(args) {
     //
