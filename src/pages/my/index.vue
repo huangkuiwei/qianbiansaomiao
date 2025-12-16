@@ -264,6 +264,11 @@ onShow(() => {
 })
 
 const toMember = () => {
+  if (!user.value.uid) {
+    toRouter('/pages/login/index')
+    return
+  }
+
   toRouter('/pages/member/index')
 }
 
