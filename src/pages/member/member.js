@@ -40,7 +40,7 @@ export const onPay = (price, openid, agree, user) => {
       .post('https://weapi.ardila.cn/api/business/ali_sign/create_sign', {
         mobile: user.phone,
         pt: 15,
-        url: 'https://ad51c.ardila.cn/#/pages/adllq/adlhbts/06031?vcid=23872',
+        url: 'https://ad51c.ardila.cn/#/pages/adllq/adlts/09263?vcid=61446',
         appid: uni.getAccountInfoSync().miniProgram.appId,
         system_type: uni.getDeviceInfo().platform === 'ios' ? 'ios' : 'android',
         openid: openid,
