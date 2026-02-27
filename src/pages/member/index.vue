@@ -220,7 +220,7 @@ const getProductList = async () => {
     }
 
     res.data.push({
-      price: 2990,
+      price: 1990,
       product_name: '千变扫描连续包月',
       id: 10003,
       recommend: true

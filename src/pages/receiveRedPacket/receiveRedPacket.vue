@@ -4,7 +4,7 @@
       <view class="top">
         <image
             mode="widthFix"
-            src="https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool/static/assets/receiveRedPacket/logo.png"
+            src="https://hnenjoy.oss-cn-shanghai.aliyuncs.com/scantool2/logo.jpg"
         />
 
         <text>千变扫描发出的红包</text>
@@ -47,7 +47,7 @@ export default {
         mask: true,
       });
 
-      $http.post('https://api.wiiken.cn/api/open/order/cashgift/v3', {
+      $http.post('https://weapi.ardila.cn/api/open/order/cashgift/v3', {
         external_agreement_no: this.sign_order_no,
       }, {
         showErrorDialog: true
@@ -150,6 +150,7 @@ page {
 
       image {
         width: 60rpx;
+        border-radius: 50%;
         margin-right: 25rpx;
       }
 
